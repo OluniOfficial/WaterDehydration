@@ -1,0 +1,38 @@
+max-water: 10
+how-much-to-reduce-the-water-level: 1
+how-much-time-to-reduce-the-water-level: 60 # need reload the server (players should re-join). in seconds
+
+dehydrate:
+  hunger-effect-amplifier: 1 # 0 - 1, 1 - 2...
+  poison-effect-amplifier: 1
+
+water-poisoning:
+  hunger-effect-amplifier: 1
+  poison-effect-amplifier: 0 # 0 - 1, 1 - 2...
+  poison-effect-duration: 10 # in seconds
+  hunger-effect-duration: 10
+  water-poisoning-time: 60 # in seconds. 20 second - -1 water level in the default configuration
+  how-much-infected-water-increase-water-level: 1 # 1 - 0
+  water-poisoning-reduce-water-in-time: 1 # in default configuration, 20 seconds - -1 water level. 60 seconds - -3 water level.
+  water-poisoning-reduce-water-time: 20 # in seconds. 20 seconds - -1 water level. 60 seconds - -3 water level.
+
+message:
+  water-actionbar:
+    wa1: "&#345D90["
+    emoji-water: "&#6A93FB♦"
+    emoji-dehydration-water: "&#FFFFFF♦"
+    wa2: "&#345D90]"
+    dehydrate: "&#92C3FFYou are dehydrated!"
+    water-poisoning: "&#99FF92♦"
+
+  no-permission: "&#FF0000You don't have permission to use this command!"
+  reload: "&#FFD700Configuration reloaded!"
+
+disinfected-water-name: "&#A7D1F1Disinfected Water"
+disinfected-custom-model-data: 500 # REQUIRED
+how-much-disinfected-water-increase-water-level: 1
+
+boiling-water:
+  # Campfire and furnace
+  campfire-cooking-time: 10 # in seconds
+  furnace-cooking-time: 10 # in seconds

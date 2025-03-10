@@ -1,0 +1,13 @@
+name: WaterDehydration
+version: '1.1'
+main: oluni.official.minecraft.waterDehydration.WaterDehydration
+api-version: '1.21'
+author: Oluni_Official
+commands:
+  wd:
+    aliases: [waterdehydration, waterd, waterdeh]
+permissions:
+  wd.reload:
+    default: op
+  wd.no-water:
+    default: false
